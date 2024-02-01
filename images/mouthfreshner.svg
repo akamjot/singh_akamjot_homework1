@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 648 612">
+<svg id="Layer_3" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 648 612">
   <defs>
     <style>
       .cls-1 {
@@ -49,7 +49,47 @@
         font-family: Kalam-Regular, Kalam;
         font-size: 51px;
       }
+
+      #Layer_3:hover .cls-2 {
+        fill: green;
+        transition: fill 0.5s ease;
+      }
+
+      #Layer_3:hover .cls-7 {
+        fill: black;
+        transition: fill 0.5s ease;
+      }
+
+      #Layer_3:hover .cls-4,.cls-6 {
+        transition: 0.5s ease;
+        transform: translateX(-200px);
+      }
+
+      #Layer_3:hover .cls-1 {
+        fill: black;
+        transition: 0.5s ease;
+      }
+
+      #Layer_3:hover .cls-5 {
+        fill: white;
+        transition: 0.5s ease;
+      }
+
     </style>
+        <script>
+       console.log("JS file connected");
+
+const vectorGraphic = document.querySelector('#circle-animated');
+
+function logThisId() {
+    console.log(this);
+    console.log('clicked on this element', this.id);
+}
+
+vectorGraphic.addEventListener('click', logThisId);
+
+    </script>
+
   </defs>
   <circle class="cls-2" cx="306" cy="306" r="306"/>
   <text class="cls-7" transform="translate(46.94 348.65) rotate(.3)"><tspan x="0" y="0">COOL</tspan></text>

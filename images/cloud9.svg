@@ -29,10 +29,43 @@
         glyph-orientation-vertical: 90deg;
         text-orientation: sideways-right;
       }
+
+      #Layer_1:hover #out_circle {
+        fill: red;
+        transition: fill 0.5s ease;
+      }
+
+       text {
+          transition: all 0.5s ease;
+      
+      }
+
+      #Layer_1:hover #flower {
+        fill: Black;
+        transition: fill 0.5s ease;
+     
+      }
+
+      #Layer_1:hover text {
+          transform: rotate(130deg);
+      }
     </style>
+        <script>
+       console.log("JS file connected");
+
+const vectorGraphic = document.querySelector('#circle-animated');
+
+function logThisId() {
+    console.log(this);
+    console.log('clicked on this element', this.id);
+}
+
+vectorGraphic.addEventListener('click', logThisId);
+
+    </script>
   </defs>
-  <circle class="cls-1" cx="326.5" cy="326.5" r="326.5"/>
-  <path class="cls-2" d="M380.61,375.18c201.68,158.66-100.71,279.65-64.14,25.66-36.57,253.99-292.54,52.61-54.3-42.72-238.25,95.32-191.83-227.05,9.85-68.38-201.68-158.66,100.71-279.65,64.14-25.66,36.57-253.99,292.54-52.61,54.3,42.72,238.25-95.32,191.83,227.05-9.85,68.38Z"/>
+  <circle id="out_circle" class="cls-1" cx="326.5" cy="326.5" r="326.5"/>
+  <path id="flower" class="cls-2" d="M380.61,375.18c201.68,158.66-100.71,279.65-64.14,25.66-36.57,253.99-292.54,52.61-54.3-42.72-238.25,95.32-191.83-227.05,9.85-68.38-201.68-158.66,100.71-279.65,64.14-25.66,36.57-253.99,292.54-52.61,54.3,42.72,238.25-95.32,191.83,227.05-9.85,68.38Z"/>
   <text class="cls-3" transform="translate(324.27 55.62) rotate(-81.05)"><tspan x="0" y="0">C</tspan></text>
   <text class="cls-3" transform="translate(394.91 66.54) rotate(-65.88)"><tspan x="0" y="0">L</tspan></text>
   <text class="cls-3" transform="translate(460.25 95.59) rotate(-50.8)"><tspan x="0" y="0">O</tspan></text>
