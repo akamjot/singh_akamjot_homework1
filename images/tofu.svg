@@ -24,17 +24,43 @@
       .cls-3 {
         font-size: 170px;
       }
+
+    #Layer_5:hover .cls-2 {
+      fill: yellow;
+    }
+
+    #Layer_5:hover .cls-1  {
+      fill: green;
+      transition: all 0.5s ease-in-out;
+    }
+
+     #Layer_5:hover .cls-3  {
+      fill: green;
+      transition: all 0.5s ease-in-out;
+      font-size: 120px;
+    }
+
+    .cls-1 {
+      transition: all 0.5s ease-in-out;
+    }
+
+     .cls-3 {
+      transition: all 0.5s ease-in-out;
+    }
+
+
+      
       
     </style>
 
         <script>
        console.log("JS file connected");
 
-const vectorGraphic = document.querySelector('#circle-animated');
+const vectorGraphic = document.querySelector('#Layer_5');
 
 function logThisId() {
     console.log(this);
-    console.log('clicked on this element', this.id);
+    console.log('Tofu', this.id);
 }
 
 vectorGraphic.addEventListener('click', logThisId);
@@ -43,7 +69,7 @@ vectorGraphic.addEventListener('click', logThisId);
 
   </defs>
   <circle class="cls-2" cx="213.5" cy="213.5" r="205.5"/>
-  <g>
+  <g id="tof">
     <text class="cls-1" transform="translate(77.89 280.12)"><tspan x="0" y="0">TOF</tspan></text>
     <text class="cls-1" transform="translate(76.89 279.12)"><tspan x="0" y="0">TOF</tspan></text>
     <text class="cls-1" transform="translate(75.89 278.12)"><tspan x="0" y="0">TOF</tspan></text>
@@ -66,7 +92,7 @@ vectorGraphic.addEventListener('click', logThisId);
     <text class="cls-1" transform="translate(58.89 261.12)"><tspan x="0" y="0">TOF</tspan></text>
     <text class="cls-1" transform="translate(57.89 260.12)"><tspan x="0" y="0">TOF</tspan></text>
   </g>
-  <g>
+  <g id="u">
     <text class="cls-3" transform="translate(244 237.33)"><tspan x="0" y="0">U</tspan></text>
     <text class="cls-3" transform="translate(245 238.33)"><tspan x="0" y="0">U</tspan></text>
     <text class="cls-3" transform="translate(246 239.33)"><tspan x="0" y="0">U</tspan></text>

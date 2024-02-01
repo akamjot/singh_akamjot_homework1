@@ -36,11 +36,11 @@
         <script>
        console.log("JS file connected");
 
-const vectorGraphic = document.querySelector('#circle-animated');
+const vectorGraphic = document.querySelector('#Layer_2');
 
 function logThisId() {
     console.log(this);
-    console.log('clicked on this element', this.id);
+    console.log('Mack', this.id);
 }
 
 vectorGraphic.addEventListener('click', logThisId);

@@ -28,6 +28,7 @@
         fill: rgb(36, 0, 167);
         transform: translateY(50px);
       }
+      
     </style>
     <script>
        console.log("JS file connected");
