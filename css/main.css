@@ -13,10 +13,10 @@ body
 
 h2{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
+    font-size: 40px;
     text-align: center;
     display: block;
-    color: #666666;
+    color: #000000;
     padding-top: 60px;
 
 
@@ -39,8 +39,6 @@ h2{
     background-color: #fff;
     width: 100%;
     margin-top: 20px;
-    padding-bottom: 600px;
-   padding-left: 180px;
 }
 
 .b_image {
@@ -93,13 +91,12 @@ h2{
 #d4 {
     grid-column: 3/5;
     padding-top: 60px;
-    padding-left: 50px;
+
 
 }
 
 #e5 {
     grid-column: 6/8;
-    padding-left: 40px;
     padding-top: 60px;
     padding-right: 30px;
 
@@ -108,7 +105,6 @@ h2{
 
 #f6 {
     grid-column: 9/10;
-    padding-left: 40px;
     padding-right: 40px;
     padding-top: 60px;
    
@@ -116,7 +112,9 @@ h2{
 
 }
 
-#cont_i article div {
-    margin-right: 50px;
+
+.container {
+    display: inline-block;
+    margin-left: 80px;
 }
 

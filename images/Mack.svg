@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 515 495">
+<svg id="Layer_2" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 515 495">
   <defs>
     <style>
       .cls-1 {
@@ -20,10 +20,35 @@
         stroke-miterlimit: 10;
         stroke-width: 2px;
       }
+
+      #Layer_2:hover #blue_circle {
+        fill: yellow;
+        transition: fill 0.5s ease;
+      }
+
+      #Layer_2:hover text {
+        font-size: 120px;
+        transition: 0.5s ease;
+        transition-origin: center;
+      }
+
     </style>
+        <script>
+       console.log("JS file connected");
+
+const vectorGraphic = document.querySelector('#circle-animated');
+
+function logThisId() {
+    console.log(this);
+    console.log('clicked on this element', this.id);
+}
+
+vectorGraphic.addEventListener('click', logThisId);
+
+    </script>
   </defs>
-  <circle class="cls-1" cx="247.5" cy="247.5" r="247.5"/>
-  <g>
+  <circle id="blue_circle" class="cls-1" cx="247.5" cy="247.5" r="247.5"/>
+  <g id="mack">
     <text class="cls-3" transform="translate(30.23 315.49)"><tspan x="0" y="0">M</tspan><tspan class="cls-2" x="136.08" y="0">A</tspan><tspan x="239.25" y="0">CK</tspan></text>
     <text class="cls-3" transform="translate(29.23 314.49)"><tspan x="0" y="0">M</tspan><tspan class="cls-2" x="136.08" y="0">A</tspan><tspan x="239.25" y="0">CK</tspan></text>
     <text class="cls-3" transform="translate(28.23 313.49)"><tspan x="0" y="0">M</tspan><tspan class="cls-2" x="136.08" y="0">A</tspan><tspan x="239.25" y="0">CK</tspan></text>
