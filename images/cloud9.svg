@@ -35,29 +35,34 @@
         transition: fill 0.5s ease;
       }
 
-       text {
+      #flower {
           transition: all 0.5s ease;
+          transform-origin: center;
       
       }
+
+      
 
       #Layer_1:hover #flower {
         fill: Black;
         transition: fill 0.5s ease;
+        
      
       }
 
-      #Layer_1:hover text {
+      #Layer_1:hover #flower {
+        transition: all 0.5s ease;
           transform: rotate(130deg);
       }
     </style>
         <script>
        console.log("JS file connected");
 
-const vectorGraphic = document.querySelector('#circle-animated');
+const vectorGraphic = document.querySelector('#Layer_1');
 
 function logThisId() {
     console.log(this);
-    console.log('clicked on this element', this.id);
+    console.log('Cloud 9', this.id);
 }
 
 vectorGraphic.addEventListener('click', logThisId);

@@ -65,6 +65,11 @@
         transform: translateX(-200px);
       }
 
+      #Layer_3:hover .cls-6 {
+        transition: 0.5s ease;
+        transform: translateX(-200px);
+      }
+
       #Layer_3:hover .cls-1 {
         fill: black;
         transition: 0.5s ease;
@@ -79,11 +84,11 @@
         <script>
        console.log("JS file connected");
 
-const vectorGraphic = document.querySelector('#circle-animated');
+const vectorGraphic = document.querySelector('#Layer_3');
 
 function logThisId() {
     console.log(this);
-    console.log('clicked on this element', this.id);
+    console.log('Mouthfreshner', this.id);
 }
 
 vectorGraphic.addEventListener('click', logThisId);
