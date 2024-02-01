@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 584 455.38">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: 0em;
+      }
+
+      .cls-2 {
+        fill: #6fccdd;
+      }
+
+      .cls-2, .cls-3 {
+        stroke-width: 0px;
+      }
+
+      .cls-4 {
+        letter-spacing: 0em;
+      }
+
+      .cls-5 {
+        fill: #fff;
+        font-family: MyriadPro-Regular, 'Myriad Pro';
+        font-size: 73px;
+      }
+
+      .cls-6 {
+        letter-spacing: 0em;
+      }
+
+      .cls-7 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-8 {
+        letter-spacing: 0em;
+      }
+
+      .cls-9 {
+        letter-spacing: -.04em;
+      }
+
+      .cls-10 {
+        letter-spacing: 0em;
+      }
+    </style>
+  </defs>
+  <g>
+    <rect class="cls-3" x=".5" y=".5" width="496" height="454.38"/>
+    <path class="cls-3" d="M496,1v453.38H1V1h495M497,0H0v455.38h497V0h0Z"/>
+  </g>
+  <text class="cls-5" transform="translate(89.39 148.71)"><tspan class="cls-4" x="0" y="0">S</tspan><tspan class="cls-1" x="36.21" y="0">a</tspan><tspan class="cls-8" x="70.81" y="0">v</tspan><tspan x="105.19" y="0">e</tspan><tspan class="cls-9" x="141.76" y="0"> </tspan><tspan class="cls-7" x="154.61" y="0">W</tspan><tspan class="cls-6" x="213.96" y="0">a</tspan><tspan class="cls-10" x="248.85" y="0">t</tspan><tspan x="272.58" y="0">er</tspan></text>
+  <path class="cls-2" d="M337,200.72c23,64-34.7,95-77.5,95s-108.5-23-77.5-95c3.92-9.1,14.76-25.85,27-40,28.88-33.38,37.4-55,50.5-55,23.82,0,69.63,73.11,77.5,95Z"/>
+</svg>

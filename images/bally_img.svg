@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="circle-animated" data-name="ball_form" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 279 279">
+  <defs>
+    <style>
+      .bck {
+        fill: #blue;
+        transition: fill 0.5s ease; /* Smooth transition for the background color */
+      }
+
+      #circle-animated:hover .bck {
+        fill: rgb(36, 0, 167);
+      }
+
+      #play {
+        transition: fill 0.5s ease; /* Smooth transition for the 'play' element color */
+      }
+
+      #circle-animated:hover #play {
+        fill: rgb(36, 0, 167);
+      }
+
+      .circle {
+        fill: green;
+        transition: fill 0.5s ease, transform 0.5s ease; /* Smooth transition for the fill color and translateY */
+      }
+
+      #circle-animated:hover .circle {
+        fill: rgb(36, 0, 167);
+        transform: translateY(50px);
+      }
+    </style>
+    <script>
+       console.log("JS file connected");
+
+const vectorGraphic = document.querySelector('#circle-animated');
+
+function logThisId() {
+    console.log(this);
+    console.log('clicked on this element', this.id);
+}
+
+vectorGraphic.addEventListener('click', logThisId);
+
+    </script>
+
+
+
+
+  </defs>
+  <rect id="uuid-a76f7b7f-d5ad-4959-af82-d2664044eb58" data-name="background" class="bck" width="279" height="279"/>
+  <g id="play" data-name="ball">
+    <circle class="circle" cx="222.75" cy="121.25" r="31.25"/>
+  </g>
+</svg>
